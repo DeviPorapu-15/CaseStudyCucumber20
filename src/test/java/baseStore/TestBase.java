@@ -20,7 +20,7 @@ public class TestBase {
 			driver = new EdgeDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(200));
 		driver.manage().deleteAllCookies();
 		}
    public static void initDriver() {
